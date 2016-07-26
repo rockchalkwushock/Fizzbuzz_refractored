@@ -1,0 +1,86 @@
+/* 
+#########################################
+#
+#  Table of Contents
+#  
+#  1) Parent Elements
+#  2) Form Container Elements
+#  3) FizzBuzz Container Elements 
+#
+#########################################
+*/
+
+/*---------- Parent Elements ----------*/
+
+* {
+  box-sizing: border-box;
+  margin: .5em;
+}
+
+body {
+  font-family: 'Georgia', sans-serif;
+  background-color: black;
+}
+
+/*---------- Form Container Elements ----------*/
+
+.form-container
+{
+	border: 2px solid black;
+	border-radius: 2em;
+	background-color: white;
+	text-align: center;
+	line-height: 1em;
+	padding: 1em;
+	margin: 1em;
+}
+
+button, input
+{
+	border-radius: 1.75em;
+	height: 1.75em;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+/*---------- FizzBuzz Container Elements ----------*/
+
+.fizzbuzz-container
+{
+	border: 2px solid black;
+	border-radius: 2em;
+	background-color: Dodgerblue;
+	line-height: 1em;
+	padding: 1em;
+	margin: 1em;
+	height: 1000px;
+	display: table;
+	width: 97.5%;
+}
+
+.true, .false
+{
+	border: 2px solid black;
+	border-radius: 2em;
+	background-color: white;
+	line-height: 1em;
+	padding: 1em;
+	margin: 1em;
+	height: 800px;
+	width: 40%;
+	display: table-cell;
+	text-align: left;
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
